@@ -1,2 +1,2 @@
-# alpine-k8s-omni
-Extension of the popular Alpine image alpine/k8s (kubectl, helm, awscli, eksctl, etc) to include omnictl and talosctl
+# alpine-k8s-omni docker image
+Toolbox for k8s in the Sidero ecosystem with kubectl, helm, awscli, kustomize, omnictl, talosctl etc
