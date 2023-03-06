@@ -3,7 +3,7 @@ Toolbox for k8s in the Sidero ecosystem that adds `talosctl` and `omnictl` to th
 
 The image allows optional authentication environment variables to allow `omnictl` to automatically authenticate, and provides a slim version with only `talosctl` and `omnictl`.
 
-[view on dockerhub](https://hub.docker.com/r/ryandellolio/alpine-k8s-omni))
+[view on dockerhub](https://hub.docker.com/r/ryandellolio/alpine-k8s-omni)
 
 ## prerequisites
 1. Before building, you must include the `omnictl-<env>-<arch>` binary from your Omni dashboard in the root of your repository, and optionally update the `COPY` command in the Dockerfile if you are using a different architecture
