@@ -1,7 +1,7 @@
 # alpine-k8s-omni docker image
 Toolbox for k8s in the Sidero ecosystem that adds `talosctl` and `omnictl` to the [alpine/k8s](https://hub.docker.com/r/alpine/k8s/tags/) image of existing tools such as `kubectl`, `helm` and others.
 
-The image allows optional authentication environment variables to allow `omnictl` to automatically authenticate, and provides a slim version with only `talosctl` and `omnictl`.
+The image allows optional authentication environment variables to allow `omnictl` to automatically authenticate, and has a slim variant with only `talosctl` and `omnictl`.
 
 ## use it
 
@@ -9,7 +9,7 @@ The image allows optional authentication environment variables to allow `omnictl
 
 [view on dockerhub](https://hub.docker.com/r/ryandellolio/alpine-k8s-omni)
 
-Images are posted on [dockerhub](https://hub.docker.com/r/ryandellolio/alpine-k8s-omni) at and can be tried using:
+Images are posted on [dockerhub](https://hub.docker.com/r/ryandellolio/alpine-k8s-omni) and can be tried using:
 - full version `docker run -it ryandellolio/alpine-k8s-omni /bin/sh`
 - slim version `docker run -it ryandellolio/alpine-k8s-omni:slim /bin/sh`
 
