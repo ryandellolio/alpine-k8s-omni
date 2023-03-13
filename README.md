@@ -55,7 +55,7 @@ docker buildx build -f Dockerfile-slim --push \
 
 ##### full semver
 ```
-docker buildx build -f Dockerfile-slim --push \
+docker buildx build -f Dockerfile --push \
 --platform linux/amd64,linux/arm64 \
 --tag ryandellolio/alpine-k8s-omni:0.1.1 .
 ```
